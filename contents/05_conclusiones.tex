@@ -1,0 +1,78 @@
+La Universidad Austral de Chile se encuentra en una etapa de cambios dado que ya ha empezado con
+el proceso de innovación curricular.  Inicialmente la documentación de estos procesos curriculares  se ha almacenado en distintos medios y en varias unidades de la organización. Al comienzo, este modo de gestión  funcionó relativamente bien, sin embargo, a  medida que el número de carreras innovadas fue creciendo,  este tipo de administración  fue retrasando la gestión de procesos estratégicos de seguimiento y auto evaluación.
+\\
+
+
+El desarrollo del presente proyecto  pretende apoyar la gestión de los procesos curriculares de estudios de pregrado, y como queda en evidencia en el  capítulo \ref{Desarrollo_Sistema}, el objetivo general se ha cumplido en su totalidad.
+\\
+
+El sistema no solo permite tener un historial de cambios curriculares en los planes de estudio, si no también permite el almacenamiento centralizado de los documentos relacionados con estos procesos, lo cual permite  que la documentación no se deteriore con el tiempo, y también disminuye el tiempo de búsqueda de estos mismos.\\
+
+Una de las dificultades iniciales identificadas por el autor, fue el desarrollar una aplicación con tecnologías totalmente desconocidas para él. Es verdad que si no hubiera existido esta restricción, no hubiera habido mayores dificultades, sin embargo, el trabajar con tecnologías desconocidas, fue un desafío que se propuso el estudiante para así al finalizar la tesis tener una retroalimentación de qué se siente trabajar bajo presión y sumarle el poco conocimiento sobre las herramientas de desarrollo.
+\\ 
+
+
+La  etapa de ``Validación'' del proyecto, es muy imporatante, ya que es inevitable que el sistema inicialmente no falle, puesto que al momento de programar existen muchos factores que hacen que el desempeño de la aplicación no sea el deseado, como por ejemplo  el cansancio, el estrés, entre otros factores. Gracias a esta etapa se pudo corregir a tiempo varios errores que se presentaron al momento de  probar la aplicación con datos reales.
+\\
+
+
+
+En síntesis, en el contexto de la educación superior y del cambio de paradigma en el modelo educativo que busca implementar la universidad, esto es, pasar de un modelo centrado en la enseñanza (profesor) a uno centrado en el aprendizaje (estudiante), es importante que las unidades encargadas de administrar estos procesos posean un sistema informático que facilite no solo la búsqueda de documentos, si no también  que almacene la trayectoria de los planes de estudios con el objetivo de tener una referencia de cambios.
+
+
+
+
+\subsection{Trabajo futuro}
+El paso siguiente es la integración total del software desarrollado con los sistemas de la Universidad, para ello se elaboró una propuesta de trabajo, la cual se puede ver en la Tabla \ref{Tabla_Propuesta_trabajo}.
+
+
+	\begin{longtable}{l|p{7cm} |p{4cm}}
+		
+		\caption{Propuesta de trabajo}
+		\label{Tabla_Propuesta_trabajo}\\
+		
+		
+		\hline
+		\endfirsthead
+		\multicolumn{3}{c}%
+		{\tablename\ \thetable\ -- \textit{Continuación de la pagina anterior}} \\
+		\hline
+		
+		\hline
+		\endhead
+		\hline \multicolumn{3}{r}{\textit{Continúa en la página siguiente}} \\
+		\endfoot
+		\hline
+		\endlastfoot
+		
+		\rowcolor{LightBlue2} Nombre hito & Descripción & Actores\\ \hline
+		Reunión &
+		Coordinar una reunión con el encargado de desarrollo de la DTI para  crear un ambiente de desarrollo con el fin de que el alumno tenga acceso a los datos reales de la universidad & 
+		Alumno tesista, Patrocinante,Encargado de desarrolo de la DTI.\\ \hline
+		
+		Integración &
+		El alumno tesista tiene que integrar en su totalidad el sistema desarrollado en el ambiente de desarrollo & 
+		Alumno tesista.\\ \hline
+		
+		Reunión &
+		Coordinar una reunión formar con Registro académico, con el fin de que este departamento provea documentación referente a los cambios curriculares & 
+		Alumno tesista, Patrocinante, Jefa y secretaria  de Registro Académico.\\ \hline
+		
+		Documentación &
+		Toda la información entregada por registro académico, se debe entregar en formato digital, en caso contrario, se deben escanear todos los documentos & 
+		Alumno ayudante.\\ \hline
+		
+		
+		Poblar BD &
+		Se deben subir todos los documentos facilitados al sistema con el fin de empezar a registrar los historiales curriculares de todas las facultades.& 
+		Alumno tesista, Secretaria de Registro Académico.\\ 
+
+		\hline \hline
+	
+	\end{longtable}
+	
+	
+	En cuanto al alcance del proyecto, el prototipo desarrollado podría ser mejorado incluyendo un módulo estadístico, en el cual se pueda ver de forma gráfica y clara algunas variables, como por ejemplo: las carreras con más cambios curriculares, el porcentaje de carreras innovadas, entre otras variables que se pueden considerar importantes al momento de la generación de informes que apoyen procesos estratégicos de seguimiento.
+	\\
+	
+	Finalmente, otra mejora que se podría hacer al prototipo, es aumentar el tipo de archivos soportado, puesto que como la información referente a los cambios curriculares se encuentra en su gran mayoría de forma física, ésta información debe ser escaneada antes de ser subida, y generalmente los software que escanean guardan los documentos en formato imagen y actualmente el software solo permite archivos en formato PDF, por lo que esta mejora supone una disminución de tiempo al momento de querer subir un documento a la plataforma.

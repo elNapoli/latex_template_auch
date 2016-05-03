@@ -1,0 +1,15 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{7}{0}{1}
+\beamer@sectionintoc {2}{Marco te\IeC {\'o}rico}{22}{0}{2}
+\beamer@sectionintoc {3}{Desarrollo}{26}{0}{3}
+\beamer@subsectionintoc {3}{1}{Requerimientos funcionales}{45}{0}{3}
+\beamer@subsectionintoc {3}{2}{requerimientos no funcionales}{46}{0}{3}
+\beamer@subsectionintoc {3}{3}{Modelo Conceptual}{47}{0}{3}
+\beamer@subsectionintoc {3}{4}{Modelo de datos}{48}{0}{3}
+\beamer@subsectionintoc {3}{5}{Casos de usos}{49}{0}{3}
+\beamer@subsectionintoc {3}{6}{Actores del sistema}{50}{0}{3}
+\beamer@subsectionintoc {3}{7}{casos de usos}{51}{0}{3}
+\beamer@sectionintoc {4}{Validaci\IeC {\'o}n}{53}{0}{4}
+\beamer@subsectionintoc {4}{1}{Metodolog\IeC {\'\i }a}{53}{0}{4}
+\beamer@sectionintoc {5}{Conclusiones y trabajos futuros}{54}{0}{5}
